@@ -9,10 +9,12 @@ pub fn forklift() {
 
 fn forklift_game(repeat: bool, secret_number: i32) {
     if !repeat {
+        println!("");
         println!("Forklift goes up and down.");
-        println!("What do you think:");
+        println!("Give me a number and I will tell you if you got it right:");
     } else {
-        println!("\nGuess:");
+        println!("");
+        println!("Again?:");
     }
 
     let mut user_input = String::new();
