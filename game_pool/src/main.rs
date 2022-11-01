@@ -1,3 +1,6 @@
+mod forklift;
+
 fn main() {
-    println!("Hello, world!");
+    crate::forklift::forklift();
 }
+
