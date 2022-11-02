@@ -5,7 +5,6 @@ fn main() {
     println!("Welcome to Game Pool!");
     println!("We have:
 1 -> Forklift
-2 -> hehe
 0 -> Exit Game Pool
 ");
     println!("Which game would you like to play today?");

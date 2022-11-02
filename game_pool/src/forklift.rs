@@ -3,7 +3,7 @@ use rand::Rng;
 use std::cmp::Ordering;
 
 pub fn forklift() {
-    let sn = rand::thread_rng().gen_range(1..=100);
+    let sn = rand::thread_rng().gen_range(1..=1000);
     forklift_game(false, sn);
 }
 
@@ -14,7 +14,7 @@ fn forklift_game(repeat: bool, secret_number: i32) {
         println!("Give me a number and I will tell you if you got it right:");
     } else {
         println!("");
-        println!("Again?:");
+        println!("Again:");
     }
 
     let mut user_input = String::new();
